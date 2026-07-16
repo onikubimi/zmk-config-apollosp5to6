@@ -1,0 +1,17 @@
+file_format: "1"
+id: apollosp5to6
+name: ApolloSP5to6
+type: shield
+requires:
+  - pro_micro
+features:
+  - keys
+  - studio
+  - encoder
+siblings:
+  - apollosp5to6_left
+  - apollosp5_right
+boards:
+  - nice_nano_v2
+  - nice_nano
+  - pro_micro
