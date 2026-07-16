@@ -1,0 +1,5 @@
+config SHIELD_APOLLOSP5TO6_LEFT
+    def_bool $(shields_list_contains,apollosp5to6_left)
+
+config SHIELD_APOLLOSP5_RIGHT
+    def_bool $(shields_list_contains,apollosp5_right)
