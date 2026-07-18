@@ -1,4 +1,4 @@
-#include "apollosp5.dtsi"
+#include "apollosp5to6.dtsi"
 
 &default_transform {
     col-offset = <7>;
