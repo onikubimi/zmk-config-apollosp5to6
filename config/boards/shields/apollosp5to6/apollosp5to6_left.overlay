@@ -6,7 +6,7 @@
         , <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row 1
         , <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row 2
         , <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row 3
-        , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Row 4
+        , <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // Row 4
 
     col-gpios
         = <&gpio0 17 GPIO_ACTIVE_LOW> // Col 0
