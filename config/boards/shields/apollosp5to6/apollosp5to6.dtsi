@@ -16,7 +16,7 @@
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
-        keys = <&key_physical_attrs 100 100 100 25 0 0 0>    // [0,1]
+        keys = <&key_physical_attrs 100 100 100 35 0 0 0>    // [0,1]
              , <&key_physical_attrs 100 100 200 0 0 0 0>     // [0,2]
              , <&key_physical_attrs 100 100 300 (-25) 0 0 0> // [0,3]
              , <&key_physical_attrs 100 100 400 0 0 0 0>     // [0,4]
@@ -30,12 +30,11 @@
 
              /* Row 1 */
              , <&key_physical_attrs 100 100 0 100 0 0 0>
-             , <&key_physical_attrs 100 100 100 125 0 0 0>
+             , <&key_physical_attrs 100 100 100 135 0 0 0>
              , <&key_physical_attrs 100 100 200 100 0 0 0>
              , <&key_physical_attrs 100 100 300 75 0 0 0>
              , <&key_physical_attrs 100 100 400 100 0 0 0>
              , <&key_physical_attrs 100 100 500 125 0 0 0>
-//           , <&key_physical_attrs 100 100 615 125 0 0 0>
 
              , <&key_physical_attrs 100 100 765 125 0 0 0>
              , <&key_physical_attrs 100 100 880 125 0 0 0>
@@ -47,7 +46,7 @@
 
              /* Row 2 */
              , <&key_physical_attrs 100 100 0 200 0 0 0>
-             , <&key_physical_attrs 100 100 100 225 0 0 0>
+             , <&key_physical_attrs 100 100 100 235 0 0 0>
              , <&key_physical_attrs 100 100 200 200 0 0 0>
              , <&key_physical_attrs 100 100 300 175 0 0 0>
              , <&key_physical_attrs 100 100 400 200 0 0 0>
@@ -64,12 +63,12 @@
 
              /* Row 3 */
              , <&key_physical_attrs 100 100 0 300 0 0 0>
-             , <&key_physical_attrs 100 100 100 325 0 0 0>
+             , <&key_physical_attrs 100 100 100 335 0 0 0>
              , <&key_physical_attrs 100 100 200 300 0 0 0>
              , <&key_physical_attrs 100 100 300 275 0 0 0>
              , <&key_physical_attrs 100 100 400 300 0 0 0>
              , <&key_physical_attrs 100 100 500 325 0 0 0>
-             , <&key_physical_attrs 100 100 600 325 0 0 0>
+             , <&key_physical_attrs 100 100 615 325 0 0 0>
 
              , <&key_physical_attrs 100 100 880 325 0 0 0>
              , <&key_physical_attrs 100 100 980 300 0 0 0>
@@ -81,7 +80,7 @@
              /* Row 4: 親指 */
              /* 幅 高 X座標 Y座標 回転角 ラベルX ラベルY */
              , <&key_physical_attrs 100 100 0 400 0 0 0>
-             , <&key_physical_attrs 100 100 100 425 0 0 0>
+             , <&key_physical_attrs 100 100 100 435 0 0 0>
              , <&key_physical_attrs 100 100 200 400 0 0 0>
              , <&key_physical_attrs 100 100 300 450 (0) 0 0>
              , <&key_physical_attrs 100 100 410 455 (1000) 0 0>
