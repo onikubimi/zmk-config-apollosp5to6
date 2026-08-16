@@ -9,7 +9,7 @@ features:
   - studio
   - encoder
 siblings:
-  - apollosp5to6_left
+  - apollosp6_left
   - apollosp5_right
 boards:
   - nice_nano_v2
