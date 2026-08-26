@@ -137,12 +137,13 @@
         sensors = <&right_encoder>;
         triggers-per-rotation = <20>;
     };
+};
 
-    &vbatt {
+&vbatt {
     status = "okay";
     compatible = "zmk,battery-voltage-divider";
     io-channels = <&adc 2>;
     output-ohms = <10000>;
     full-ohms = <21045>;
-    };
 };
+
