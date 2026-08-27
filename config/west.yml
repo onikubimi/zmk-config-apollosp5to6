@@ -3,8 +3,8 @@ manifest:
     revision: v3.0
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/onikubimi
-
+    # url-base: https://github.com/onikubimi
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
