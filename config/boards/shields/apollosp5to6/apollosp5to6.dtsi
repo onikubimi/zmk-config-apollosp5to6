@@ -127,9 +127,10 @@
         sensors = <&right_encoder>;
         triggers-per-rotation = <20>;
     };
-};
 
-&vbatt {
-    compatible = "zmk,battery-nrf-vddh";
-    status = "okay";
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+        status = "okay";
+    };
+
 };
