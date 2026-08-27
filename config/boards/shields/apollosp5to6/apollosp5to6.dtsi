@@ -8,16 +8,6 @@
         zmk,physical-layout = &physical_layout0;
     };
 
-    /* 
-     * 【変更点】
-     * コイン電池（3.0V）は通常VDDに直結するため、リポ電池向けの 
-     * VDDH を使ったバッテリー監視設定はコメントアウトしています。
-     * （基板側に分圧回路がある場合は "zmk,battery-voltage-divider" に書き換えます）
-     */
-    // vbatt: vbatt {
-    //     compatible = "zmk,battery-nrf-vddh";
-    // };
-
     physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
@@ -140,9 +130,6 @@
 };
 
 &vbatt {
+    compatible = "zmk,battery-nrf-vddh";
     status = "okay";
-    compatible = "zmk,battery-voltage-divider";
-    io-channels = <&adc 2>;
-    output-ohms = <10000>;
-    full-ohms = <31500>; 
 };
