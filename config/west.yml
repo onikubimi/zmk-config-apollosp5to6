@@ -4,8 +4,8 @@ manifest:
   # revision: main
   remotes:
     - name: zmkfirmware
-    # url-base: https://github.com/onikubimi
-      url-base: https://github.com/zmkfirmware
+       url-base: https://github.com/onikubimi
+     # url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
