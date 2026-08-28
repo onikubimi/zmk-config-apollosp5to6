@@ -1,11 +1,11 @@
 manifest:
   defaults:
-  # revision: v0.3
-    revision: main
+    revision: v0.3
+  # revision: main
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/onikubimi/zmk
-    # url-base: https://github.com/zmkfirmware
+    # url-base: https://github.com/onikubimi
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
