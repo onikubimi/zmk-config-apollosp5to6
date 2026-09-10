@@ -169,7 +169,7 @@
         display-offset = <0>;
         multiplex-ratio = <31>;
         segment-remap;
-        page-or-col-increment;
+        
         contrast = <0xff>;
         inversion-on;
         prechargep = <0x22>;
